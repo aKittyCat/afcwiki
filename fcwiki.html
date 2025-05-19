@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fantasy MC Fabric Wiki</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              dark: '#0f172a',
+              card: '#1e293b',
+              accent: '#7dd3fc'
+            }
+          }
+        }
+      }
+    </script>
+  </head>
+  <body class="bg-dark text-white font-sans">
+    <header class="bg-card p-4 shadow-md">
+      <nav class="flex flex-wrap justify-between items-center">
+        <h1 class="text-3xl font-bold text-accent">Fantasy MC Fabric</h1>
+        <ul class="flex gap-4 mt-2 sm:mt-0">
+          <li><a href="#start" class="hover:underline">คำแนะนำการเริ่มต้น</a></li>
+          <li><a href="#classes" class="hover:underline">เส้นทางการเล่น</a></li>
+          <li><a href="#weapons" class="hover:underline">อาวุธ</a></li>
+          <li><a href="#ores" class="hover:underline">ระบบแร่</a></li>
+          <li><a href="#quests" class="hover:underline">ภารกิจ</a></li>
+          <li><a href="#tools" class="hover:underline">เครื่องมือ</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="p-6 space-y-10">
+      <section class="text-center">
+        <h2 class="text-5xl font-bold">Fantasy MC Fabric</h2>
+      </section>
+
+      <section id="start">
+        <h3 class="text-2xl font-semibold text-accent mb-2">คำแนะนำการเริ่มต้น</h3>
+        <p>มีต้นกำเนิดที่ได้รับแรงบันดาลใจจากจินตนาการมากมายให้เลือก โดยแต่ละต้นกำเนิดมีจุดแข็งและจุดอ่อนที่แตกต่างกัน หากคุณไม่แน่ใจว่าจะเลือกต้นกำเนิดใด ให้เลือกต้นกำเนิดของมนุษย์</p>
+      </section>
+
+      <section id="classes">
+        <h3 class="text-2xl font-semibold text-accent mb-2">เส้นทางการเล่นของแต่ละสาย</h3>
+        <ul class="space-y-2">
+          <li><strong>Exiled Knight:</strong> ไอเทมเฉพาะตัวบัพเพิ่มความเร็วโจมตี 10%</li>
+          <li><strong>Forsaken Prophet:</strong> ไอเทมเฉพาะตัวสกิลฟื้นฟูพลังชีวิต 20% ตามพลังชีวิต</li>
+          <li><strong>Shadow Assassin:</strong> ไอเทมเฉพาะตัวเพิ่มดาเมจ ดาเมจคริติคอลและโอกาสติดคริติคอล</li>
+          <li><strong>Elementalist:</strong> ไอเทมเฉพาะตัวถุงเก็บหินธาตุดิน น้ำ ลม ไฟ น้ำแข็ง และพลังลึกลับ</li>
+        </ul>
+      </section>
+
+      <section id="weapons">
+        <h3 class="text-2xl font-semibold text-accent mb-2">อาวุธแต่ละประเภท</h3>
+        <ul class="list-disc pl-5">
+          <li>Physical Damage</li>
+          <li>Ranged Damage</li>
+          <li>Battle Mage</li>
+          <li>Wizard</li>
+        </ul>
+      </section>
+
+      <section id="ores">
+        <h3 class="text-2xl font-semibold text-accent mb-2">ระบบแร่</h3>
+        <p>จากม็อด Mythic Metals ซึ่งมีแร่จำนวนมากที่สามารถหาได้ในระดับต่าง ๆ พร้อมนำไปหลอม สร้างอาวุธ ชุดเกราะ และอุปกรณ์ต่าง ๆ ผ่านเตาหลอมโลหะผสม (Alloy Forge)</p>
+        <a href="https://www.youtube.com/watch?v=0xu72euIlQ8" target="_blank" class="text-accent underline">ดูวิดีโอแนะนำการใช้ Mythic Metals</a>
+        <ul class="list-disc pl-5 mb-4">
+          <li><strong>Tier 1:</strong> Stone Brick / Brick Forge Controller</li>
+          <li><strong>Tier 2:</strong> Deepslate Brick / Prismarine Bricks / Polished Blackstone</li>
+          <li><strong>Tier 3:</strong> Adamantite Block / End Stone Brick</li>
+        </ul>
+        <h4 class="text-xl font-bold mb-2">ระดับความลึกของแร่:</h4>
+        <div class="grid grid-cols-2 gap-4">
+          <ul class="list-disc pl-5">
+            <li>Aquarium: Y=21 ถึง 69</li>
+            <li>Banglum: Y=69 ถึง 110</li>
+            <li>Manganese: Y=28 ถึง 48</li>
+            <li>Midas Gold: Y=12 ถึง 125</li>
+            <li>Osmium: Y=50 ถึง 120</li>
+            <li>Palladium: Y=13 ถึง 38</li>
+            <li>Quadrillum: Y=12 ถึง 40</li>
+            <li>Silver: Y=25 ถึง 42</li>
+            <li>Stormyx: Y=4 ถึง 60</li>
+            <li>Tin: Y=64 ถึง 92</li>
+            <li>Starrite: Y=30 ถึง 90</li>
+          </ul>
+          <ul class="list-disc pl-5">
+            <li>Adamantite: Y=-54 ถึง -20</li>
+            <li>Mythril: Y=-24 ถึง 4</li>
+            <li>Unobtainium: Y=-54 ถึง 5</li>
+            <li>Carmot: Y=-24 ถึง 10</li>
+            <li>Kyber: Y=-56 ถึง 40</li>
+            <li>Morkite: Y=-37 ถึง 32</li>
+            <li>Orichalcum: Y=-52 ถึง 8</li>
+            <li>Platinum: Y=8 ถึง 32</li>
+            <li>Prometheum: Y=-34 ถึง 48</li>
+            <li>Runite: Y=-55 ถึง 37</li>
+          </ul>
+        </div>
+        <img src="/pic/ore.jpg" alt="Mythic Metals Ore Distribution" class="mt-4 w-full rounded-xl border border-white" />
+      </section>
+
+      <section id="quests">
+        <h3 class="text-2xl font-semibold text-accent mb-2">เควสต์ / ระบบภารกิจ</h3>
+        <ul class="list-disc pl-5">
+          <li>Overworld - Pre-Boss: Lesser Templar, Fire Mage, Rogue, Mercenary, Juggernaut สามารถพบเจอได้ในโลกปกติในเวลากลางคืน ปรากฏกายเหมือนม็อบทั่วไปแต่พบได้ไม่บ่อยนัก</li>
+          <li>Overworld - Mid-Boss: Forsaken Templar, Fire Mage, Rogue, Mercenary, Juggernaut สามารถพบเจอได้ใน Ancient Trials</li>
+          <li>Overworld - Late-Boss: Void Blossom, Nightlich, Forsaken Magus วางแตรของ Lavos ในการเรียกที่หาได้จากการดรอปจากลูกสมุนที่ผ่านมา</li>
+          <li>Nether-Boss: Blackstone Golem, Nether Gauntlet หาไม่เจอก็เปิดยูตูบXD</li>
+          <li>The End-Boss: Ender Dragon, Obsidilith, Void Shadow, The Eye หาไม่เจอก็เปิดยูตูบXDเหมือนกัน</li>
+        </ul>
+      </section>
+
+      <section id="tools">
+        <h3 class="text-2xl font-semibold text-accent mb-2">ระบบค้นหา</h3>
+        <ul class="list-disc pl-5">
+          <li>Explorer's Compass สำหรับการค้นหาสถานที่</li>
+          <li>Nature's Compass สำหรับการหาชีวนิเวศต่าง ๆ</li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
